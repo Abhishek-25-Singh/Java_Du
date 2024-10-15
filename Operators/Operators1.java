@@ -27,7 +27,30 @@ System.out.println("pre-increment: "+ y);
 //*--------------Final Variable--------------- */
 
 // final int z = 10;
-// System.out.println (++z);     
+// System.out.println (++z); 
+
+ //*--------------Primitive Data Type(Except Boolean) --------------- */
+
+// int z = 10;
+// ++z;
+// System.out.println(z);
+
+// float a = 10;
+// ++a;
+// System.out.println(a);
+
+// char d = 'a';
+// ++d;
+// System.out.println(d);
+
+// double b = 10;
+// ++b;
+// System.out.println(b);
+
+//! CompileTime Error: Operators ++ cannot be applied to boolean
+// boolean c = true;
+// ++c;
+// System.out.println(c);
 
     }
 }
