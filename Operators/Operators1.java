@@ -65,6 +65,14 @@ System.out.println("pre-increment: "+ y);
 // byte c = (byte)(a+b);
 // System.out.println(c);        
 
+ //* Arithmetic Operator (+ - * %) */
+
+// char a = 'a';
+// char b = 'b';
+// System.out.println(a+b);  //?---> char + char = int
+
+// double c = 0.89;
+// System.out.println(a+c); //?---> char + Double = Double
     }
 }
 
