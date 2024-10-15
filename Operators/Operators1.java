@@ -18,7 +18,10 @@ System.out.println("pre-increment: "+ y);
 // int z = ++10;
 // System.out.println(z);
 
+//*--------------Nesting of increment and decrement operator are not allowed --------------- */
 
+// int z = 10;
+// System.out.println(++(++z));
 
     }
 }
