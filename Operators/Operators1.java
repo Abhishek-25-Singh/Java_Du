@@ -23,6 +23,12 @@ System.out.println("pre-increment: "+ y);
 // int z = 10;
 // System.out.println(++(++z));
 
+        
+//*--------------Final Variable--------------- */
+
+// final int z = 10;
+// System.out.println (++z);     
+
     }
 }
 
