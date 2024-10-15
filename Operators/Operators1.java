@@ -52,6 +52,19 @@ System.out.println("pre-increment: "+ y);
 // ++c;
 // System.out.println(c);
 
+
+//*-------------Difference Between b++ and b= b+1 */
+// byte a = 10;
+// byte b = 20;
+// byte c= a+b;
+//? We Apply any arithmetic operator between two variables a and b */
+//? the Result type is always max(int,type of a , type of b) */
+//!byte c = a+b; ---> max(int,byte,byte) = int type
+// System.out.println(c);
+//?We can handel this Exception Using Typecasting
+// byte c = (byte)(a+b);
+// System.out.println(c);        
+
     }
 }
 
