@@ -13,7 +13,10 @@ public class Operator1 {
 int x = 10;
 int y = ++x;
 System.out.println("pre-increment: "+ y);
-
+//*--------------Constant Value--------------- */
+//! CompileTime Error : Unexpected Type found : value Required : Variable
+// int z = ++10;
+// System.out.println(z);
 
 
 
