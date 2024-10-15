@@ -73,6 +73,29 @@ System.out.println("pre-increment: "+ y);
 
 // double c = 0.89;
 // System.out.println(a+c); //?---> char + Double = Double
+
+//*---------------INfinity------------------------- */
+
+//!Runtime Exception: ArithmeticException: / by zero
+// System.out.println(10/0);
+ //?----> Infinity
+// System.out.println(10/0.0); 
+//?----> -Infinity 
+// System.out.println(-10/0.0);   
+
+//*---------------NaN(Not a Number)------------------------- */
+// System.out.println(0.0/0);
+// System.out.println(-0.0/0);
+
+
+//*---------------float.NaN------------------------- */
+// System.out.println(10<Float.NaN);
+// System.out.println(10<=Float.NaN);
+// System.out.println(10>Float.NaN);
+// System.out.println(10>=Float.NaN);
+// System.out.println(10==Float.NaN);
+// System.out.println(10!=Float.NaN);
+// System.out.println(10!=Float.NaN);
     }
 }
 
