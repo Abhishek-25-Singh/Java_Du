@@ -102,6 +102,16 @@ public class Array_Part1 {
 // System.out.println(bol1.getClass().getName());
 // boolean[][][] bol2 = new boolean[3][2][1];
 // System.out.println(bol2.getClass().getName());
+
+
+//******************************************************* */
+//** Loop holes in Array Creation                         */
+//******************************************************* */
+
+/*At the time of array Creation compulsory we should specify the size otherwise we will get compile time error   */
+int[] xx = new int[3];
+
+//! int[] xx1 = new int[];
         
     }
 }
