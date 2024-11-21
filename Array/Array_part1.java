@@ -112,6 +112,7 @@ public class Array_Part1 {
 int[] xx = new int[3];
 
 //! int[] xx1 = new int[];
-        
+
+int[] xx2 = new int[0];
     }
 }
