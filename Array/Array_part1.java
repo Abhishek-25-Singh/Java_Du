@@ -114,5 +114,7 @@ int[] xx = new int[3];
 //! int[] xx1 = new int[];
 
 int[] xx2 = new int[0];
+
+//! int[] x = new int[-3]; Runtime error: NegativeArraySizeException
     }
 }
