@@ -116,5 +116,14 @@ int[] xx = new int[3];
 int[] xx2 = new int[0];
 
 //! int[] x = new int[-3]; Runtime error: NegativeArraySizeException
+
+int[] x = new int[3];
+int[] c = new int['a'];
+
+byte b = 30;
+int[] x1 =new int[b];
+
+short s = 20;
+int[] s1 = new int[s];
     }
 }
