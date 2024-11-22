@@ -125,5 +125,9 @@ int[] x1 =new int[b];
 
 short s = 20;
 int[] s1 = new int[s];
+
+ //! int[] x3 = new int[10l];
+
+
     }
 }
