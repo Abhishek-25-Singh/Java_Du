@@ -22,6 +22,30 @@ public class Array_part2
 // x1[0][2] = new int[3];
 // x1[1] = new int[2][2];
 
+//******************************************************* */
+//** Which of the Array declaration are Valid                                */
+//******************************************************* */
+
+
+// //! int[] x1 = new int[];
+
+// int[] x2 = new int[3];
+
+// //! int[][] x3 = new int[][];
+
+// int[][] x4 = new int[3][];
+
+// //! int[][] x5 = new int[][4];
+
+// int[][] x6 = new int[3][4];
+
+// int[][][] x7 = new int[3][4][5];
+
+// int[][][] x8 = new int[3][4][];
+
+// //! int[][][] x10 = new int[3][][4];
+
+// //! int[][][] x11 = new int[][4][5];
 
     }
 }
