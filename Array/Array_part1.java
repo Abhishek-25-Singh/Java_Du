@@ -127,7 +127,8 @@ short s = 20;
 int[] s1 = new int[s];
 
  //! int[] x3 = new int[10l];
-
+int[] S = new int[2147483647];
+//! int[] S1 = new int[2147483649]; integer number to large
 
     }
 }
