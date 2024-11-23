@@ -80,5 +80,6 @@ x[3] = 4;
 x[4] = 5;
 x[5] = 6;
 //! x[-3] = 22; 
+//! x[2.8] = 33; ---> Type mismatch: cannot convert from double to int
     }
 }
