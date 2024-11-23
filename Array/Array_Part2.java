@@ -47,5 +47,13 @@ public class Array_part2
 
 // //! int[][][] x11 = new int[][4][5];
 
+//*******************************************************   */
+//** Array Initialization                                  */
+//******************************************************* */
+
+int[] x = new int[3];
+System.out.println("Internally Two String Method is Called : " + x);
+System.out.println("Default value of Array is Zero : "+ x[0]);
+
     }
 }
