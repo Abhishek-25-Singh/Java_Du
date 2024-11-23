@@ -66,5 +66,18 @@ int[][] x2 = new int[2][];
 System.out.println("x1 is a Reference variable to Two dimensional array " + x2);
 System.out.println("x1 is a Reference variable to One dimensional array  : "+ x2[0]);
  //! System.out.println("Default value of Array is Zero : "+ x2[0][0]); --->java.lang.NullPointerException
+
+
+//*******************************************************   */
+//** Replace Default Value  / Override                                */
+//******************************************************* */
+
+int[] x = new int[6];
+x[0] = 1;
+x[1] = 2;
+x[2] = 3;
+x[3] = 4;
+x[4] = 5;
+x[5] = 6;
     }
 }
