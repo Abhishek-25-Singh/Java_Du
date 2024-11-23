@@ -60,5 +60,11 @@ int[][] x1 = new int[2][3];
 System.out.println("x1 is a Reference variable to Two dimensional array " + x1);
 System.out.println("x1 is a Reference variable to One dimensional array  : "+ x1[0]);
 System.out.println("Default value of Array is Zero : "+ x1[0][0]);
+
+
+int[][] x2 = new int[2][];
+System.out.println("x1 is a Reference variable to Two dimensional array " + x2);
+System.out.println("x1 is a Reference variable to One dimensional array  : "+ x2[0]);
+ //! System.out.println("Default value of Array is Zero : "+ x2[0][0]); --->java.lang.NullPointerException
     }
 }
