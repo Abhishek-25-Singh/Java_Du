@@ -55,5 +55,10 @@ int[] x = new int[3];
 System.out.println("Internally Two String Method is Called : " + x);
 System.out.println("Default value of Array is Zero : "+ x[0]);
 
+
+int[][] x1 = new int[2][3];
+System.out.println("x1 is a Reference variable to Two dimensional array " + x1);
+System.out.println("x1 is a Reference variable to One dimensional array  : "+ x1[0]);
+System.out.println("Default value of Array is Zero : "+ x1[0][0]);
     }
 }
